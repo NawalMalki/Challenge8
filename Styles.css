@@ -1,0 +1,615 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap');
+
+
+
+:root{
+    --IntroAndEmail : hsl(217, 28%, 15%) ;
+    --MainBg : hsl(218, 28%, 13%) ; 
+    --footerBg :  hsl(216, 53%, 9%);
+    --ReviewBg : hsl(219, 30%, 18%);  
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--MainBg);
+    color: white;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+header , .main{
+    background-color : var(--IntroAndEmail); 
+}
+
+header{
+    padding-top: 45px;
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+header nav{
+    
+    margin-left: 750px;
+}
+
+header img{
+    height: 40px;
+    margin-left: 50px;
+}
+
+
+li{
+    list-style: none;
+    margin-right: 35px;
+    margin-bottom: 12px;
+}
+
+header ul{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+li a{
+text-decoration: none;
+color: white;
+}
+
+
+
+
+
+
+.main{
+    background-image: url(./images/bg-curvy-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-top: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.main img{
+    height: 450px;
+    width: 580px;
+}
+
+.main h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-right: 350px;
+    padding-left: 400px;
+    text-align: center;
+   
+    
+}
+
+.main p {
+  
+    margin-right: 440px;
+    padding-left: 450px;
+    text-align: center;
+
+}
+
+
+button , input[type="submit"]{
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    width: 200px;
+    color: white;
+    height: 35px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    background :linear-gradient(to right ,hsl(176, 68%, 64%) , hsl(198, 60%, 50%))
+
+}
+
+
+button:hover , input[type="submit"]:hover{
+    background :  hsl(176, 68%, 64%);
+    cursor: pointer;
+}
+
+
+
+
+.features {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.item {
+    
+    width: 350px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.item img{
+    height: fit-content;
+}
+
+
+.item1 , .item3{
+    margin-left: 255px;
+}
+
+
+.item2 , .item4{
+    margin-left: 80px;
+}
+
+
+.productive{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.i1{
+    margin-left: 50px;
+}
+
+.i1 img{
+    width: 550px;
+}
+
+.i2{
+    margin-left: 40px;
+}
+
+.i2 h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    margin-top: 100px;
+    margin-right: 280px;
+
+}
+
+.i2 p {
+    margin-right: 150px;
+}
+
+
+.i2 a{
+    color: hsl(176, 68%, 64%);
+}
+
+
+.s4{
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+.quote{
+    margin-left: 30px;
+}
+
+.reviews{
+    margin-top: -15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.r1{
+    margin-left: 45px;
+}
+
+
+.review{
+    width: 350px;
+    background-color: var(--ReviewBg);
+    
+}
+
+.review:not(.r1){
+    margin-left: 30px;
+
+}
+
+
+.one {
+
+
+    margin: 40px 30px 30px 30px;
+}
+
+
+.align{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+}
+
+.align img{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+}
+
+.align p{
+margin-top: 0px;
+margin-left: 10px;
+margin-bottom: 30px;
+font-size: 12px;
+}
+
+.early_access{
+    background-color :var(--IntroAndEmail); 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 200px;
+    margin-left: 260px;
+    margin-right: 260px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    z-index: 4;
+}
+
+small{
+    margin-left: -500px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    color: rgb(252, 80, 80);
+    font-style: italic;
+    
+}
+
+.early_access h1{
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.early_access p {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+
+input[type="email"][placeholder="email@example.com"] {
+   border-radius: 20px;
+   border: none;
+   width: 400px;
+   height: 35px;
+   margin-right: 20px;
+  }
+
+
+
+
+  /* Footer styling  */
+  
+
+footer{
+    position: relative;
+    margin-top: -120px;
+    padding-top: 160px;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+    background-color: var(--footerBg);
+    display: flex;
+    flex-direction: row;
+    justify-content : space-evenly;
+    z-index: 0;
+}
+
+
+
+
+.itemi1 #logo{
+    height: 40px;
+    margin-left: 40px;
+}
+
+
+.itemi1 .align{
+    margin-top: 40px;
+}
+
+.itemi1 .align p{
+    margin-top: 0px;
+   
+}
+
+
+
+
+.itemi1 .align img{
+    height: 20px;
+    width: 18px;
+    margin-right: 15px;
+    
+}
+
+
+
+input{
+    padding-left: 20px;
+}
+
+.itemi2 img {
+    height: 16px;
+    width: 18px;
+}
+
+
+.itemi2 .align:first-of-type{
+    margin-top: 80px;
+
+}
+
+.itemi3 , .itemi4 , .itemi5{
+    margin-top: 60px;
+    margin-left: 40px;
+}
+
+
+
+
+
+
+
+ion-icon{
+    color: white;
+}
+
+
+.cadre {
+    border-radius: 300px;
+    border: 1px solid white;
+    height: 30px;
+    width: 30px;
+    margin-right: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cadre:hover{
+    border-color: hsl(176, 68%, 64%);
+    cursor: pointer;
+}
+
+
+.cadre:hover ion-icon{
+    color: hsl(176, 68%, 64%);
+}
+
+
+/* Customizing the scroll bar for my page */
+
+/* Apply styles to the entire scrollbar */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  /* Track (the area behind the thumb) */
+  ::-webkit-scrollbar-track {
+    background: var(--MainBg);
+  }
+  
+  /* Thumb (the draggable scrolling element) */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 15px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(to bottom ,hsl(176, 68%, 64%) , hsl(198, 60%, 50%));
+  }
+  
+
+
+/* Responsive design */
+
+
+@media(max-width:840px){
+    
+    header nav{
+        margin-left: 320px;
+    }
+
+    .main h1{
+        padding-left: 50px;
+        margin-right: 50px;
+    }
+
+    .main p {
+        padding-left: 60px;
+        margin-right: 50px;
+    }
+
+    .item1 , .item2 , .item3 , .item4{
+        margin: auto;
+    }
+
+
+    .productive{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 120px;
+    }
+
+    .i2{
+        text-align: center;
+    }
+
+    .i2 h1  {
+        margin: 30px 60px;
+    }
+
+    .i2 p {
+        margin: 30px 80px;
+    }
+
+    .early_access{
+        width: 500px;
+        margin: 30px auto;
+    }
+
+
+
+    .reviews{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .review {
+        margin-top: 30px;
+        width: 500px;
+
+    }
+
+    .r1{
+       margin-left: 30px !important; 
+    }
+
+    
+
+    
+}
+
+@media(max-width:375px){
+
+    header img{
+        height: 25px;
+        margin-left: 30px;
+    }
+    header ul {
+        margin-top: 0px;
+    }
+
+    header ul li{
+        margin-right: 15px;
+    }
+
+    header nav {
+        margin-left: 8px;
+    }
+    .main img{
+        width: 300px;
+        height: 260px;
+        margin: auto;
+    }
+
+    .main h1{
+        padding-left: 40px;
+        margin-right: 60px;
+        font-size: 22px;
+    }
+
+
+    .main p{
+        margin-right: 40px;
+        padding-left: 40px;
+    }
+
+    .item{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+
+    .productive{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .i1 img{
+        width: 300px;
+        margin-top: 40px;
+    }
+
+    .i2 h1 {
+        font-size: 25px;
+        margin-right: 20px;
+    }
+
+    .i2 p{
+        margin-right: 10px;
+    }
+
+    .quote{
+        margin-left: 0px;
+    }
+
+
+
+    .s4{
+        margin-left: 0px;
+    }
+
+    .r1{
+        margin-left: 34px;
+    }
+    
+
+    .quote{
+        margin-left: 45px;
+        margin-bottom: 10px;
+        width: 20px;
+    }
+
+    .review {
+        margin-left: 34px;
+        margin-bottom: 30px;
+        width: 300px;
+    }
+
+    .early_access{
+        width: 300px;
+        margin-left: 30px;
+        margin-top: 100px;
+        
+    }
+
+    .early_access p{
+        margin: 14px 20px;
+    }
+
+    .early_access form input[type="email"]{
+        width: 200px;
+        padding-left: 20px;
+        color: gray;
+        margin-right: 0px;
+    }
+
+
+    footer{
+        flex-direction: column;
+    }
+}
+
+
+
