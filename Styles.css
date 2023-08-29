@@ -28,7 +28,7 @@ body{
 .MenuIcon{
     position: absolute;
     right: 10%;
-    top: 8%;
+    top: 45px;
     font-size: 35px;
     display: none;
 }
