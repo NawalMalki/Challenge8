@@ -11,3 +11,14 @@ SUB.addEventListener("click", function (event) {
         Out.textContent = ""; // Clear any previous error message
     }
 });
+
+
+const hamburgerToggle = document.querySelector(".MenuIcon");
+const mobileNav = document.querySelector(".SideMenu");
+
+
+hamburgerToggle.addEventListener("click", function () {
+    mobileNav.style.display = "block";
+});
+
+

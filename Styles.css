@@ -34,6 +34,25 @@ body{
 }
 
 
+.SideMenu{
+    position: absolute ; 
+    top: 30%;
+    left: 10%;
+    right: 10%;
+    width : 80% ; 
+    height: 150px;
+    background-color: var(--ReviewBg);
+    border-radius: 20px;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+
 header , .main{
     background-color : var(--IntroAndEmail); 
 }
