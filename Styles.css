@@ -24,6 +24,16 @@ body{
 }
 
 
+
+.MenuIcon{
+    position: absolute;
+    right: 10%;
+    top: 11%;
+    font-size: 35px;
+    display: none;
+}
+
+
 header , .main{
     background-color : var(--IntroAndEmail); 
 }
@@ -62,6 +72,11 @@ header ul{
 li a{
 text-decoration: none;
 color: white;
+}
+
+
+li a:hover{
+    color: hsl(176, 68%, 64%); 
 }
 
 
@@ -164,7 +179,7 @@ button:hover , input[type="submit"]:hover{
 }
 
 .i1{
-    margin-left: 50px;
+    margin-left: 75px;
 }
 
 .i1 img{
@@ -172,7 +187,7 @@ button:hover , input[type="submit"]:hover{
 }
 
 .i2{
-    margin-left: 40px;
+    margin-left: 50px;
 }
 
 .i2 h1{
@@ -427,6 +442,17 @@ ion-icon{
 
 
 /* Responsive design */
+
+
+
+@media(max-width:1000px){
+    nav{
+        display: none;
+    }
+    .MenuIcon{
+        display: block;
+    }
+}
 
 
 @media(max-width:840px){
