@@ -526,6 +526,16 @@ ion-icon{
 
 @media(max-width:375px){
 
+    .features{
+        width: 100%;
+    }
+
+    .item{
+        margin-bottom: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     #logo_footer{
         height : 30px ; 
     }
