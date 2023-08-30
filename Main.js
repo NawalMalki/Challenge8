@@ -15,10 +15,13 @@ SUB.addEventListener("click", function (event) {
 
 const hamburgerToggle = document.querySelector(".MenuIcon");
 const mobileNav = document.querySelector(".SideMenu");
-
+const CloseMenu = document.querySelector(".closeMenu"); 
 
 hamburgerToggle.addEventListener("click", function () {
     mobileNav.style.display = "block";
 });
 
 
+CloseMenu.addEventListener("click" , function(){
+    mobileNav.style.display = "none"; 
+})

@@ -28,19 +28,24 @@ body{
 .MenuIcon{
     position: absolute;
     right: 10%;
-    top: 30px;
+    top: 35px;
     font-size: 35px;
     display: none;
 }
 
 
+.MenuIcon:hover{
+    cursor: pointer;
+}
+
+
 .SideMenu{
     position: absolute ; 
-    top: 30%;
+    top: 28%;
     left: 10%;
     right: 10%;
     width : 80% ; 
-    height: 150px;
+    height: 200px;
     background-color: var(--ReviewBg);
     border-radius: 20px;
     color: white;
@@ -50,6 +55,18 @@ body{
     justify-content: center;
     align-items: center;
     display: none;
+}
+
+
+
+.closeMenu{
+    font-size: 35px;
+    margin-left: 82%;
+    margin-top: 20px;
+}
+
+.closeMenu:hover{
+    cursor: pointer;
 }
 
 
