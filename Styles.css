@@ -487,6 +487,111 @@ ion-icon{
 /* Responsive design */
 
 
+@media(max-width:885px){
+    .main{
+        margin: 0;
+        padding: 40px;
+    }
+
+    .main h1{
+        margin: 25px 100px;
+        padding: 0;
+        
+    }
+
+    .main p{
+        margin: 25px;
+       
+        padding: 0;
+    }
+
+    .main button{
+        width: 30%;
+        font-size: 18px;
+        height: 50px;
+    }
+
+    
+
+.productive {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: auto 60px;
+    }
+
+    .i2{
+        margin: 0;
+        padding: 0;
+    }
+
+    .i2 h1{
+        margin: 40px 120px;
+        
+        padding: 0;
+    }
+
+    .i2 p{
+        margin: 20px 90px 20px 90px;
+        padding: 0;
+        
+    }
+
+
+    .features{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .features .item{
+        padding: 0;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+
+    
+
+    
+
+    .s4{
+        padding: 30px 30px 80px 30px;
+        margin: 0;
+        width: 100%;
+    
+    }
+    .reviews{
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+
+    .review {
+        margin-top: 40px;
+        margin-left: 0;
+        
+        width: 60%;
+    }
+
+    
+
+
+
+    .early_access{
+        width: 80%;
+        margin: auto;
+    }
+}
+
+
 
 
 
