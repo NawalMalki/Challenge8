@@ -41,7 +41,7 @@ body{
 
 .SideMenu{
     position: absolute ; 
-    top: 28%;
+    top: 26%;
     left: 10%;
     right: 10%;
     width : 80% ; 
@@ -57,6 +57,11 @@ body{
     display: none;
 }
 
+
+
+.SideMenu ul{
+    margin-left: 30px;
+}
 
 
 .closeMenu{
